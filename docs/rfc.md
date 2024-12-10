@@ -285,7 +285,8 @@ Læringsobjekt:
 
 -   Tilgjengelighetsspesifikke egenskaper
 
->[!TIP] Har man dype strukturer vil vi anbefale at man bruker *additionalType =
+> [!TIP] 
+> Har man dype strukturer vil vi anbefale at man bruker *additionalType =
 LearningModule* for å angi læringsmoduler og *additionalType =
 LearningObject* for læringsobjekter. Det vil instruere hvordan objektene
 kan aggregere og arve egenskaper under registrering av objektene.
@@ -297,9 +298,9 @@ læringsmodul hvis ikke kompetansemål er satt.
 Dokumentendringer
 -----------------
 
-  Dato:        Endring:
-  ------------ ---------------
-  2024-12-12   Første utkast
+| Dato:       | Endring:        |
+| ------------| --------------- |
+| 2024-12-12  | Første utkast   |
 
 Referanser
 ----------
