@@ -1,6 +1,6 @@
 RFC: Overordnet informasjonsmodell for *Nasjonal Tjenestekatalog for Læremidler*
 ================================================================================
-|Status                                           |
+|Status         |                           |
 |---------------|---------------------------|
 | Forfattere:   | Kjartan Rekdal Müller, Brian Jørgensen, Eivind Andreassen|
 | Oppdatert:    |                           |
