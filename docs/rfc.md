@@ -33,20 +33,14 @@ Begreper
 -   **Læremiddel**: "Med læremiddel er her meint alle trykte,
     ikkje-trykte og digitale element som er utvikla til bruk i
     opplæringa, som skal brukast jamleg i opplæringa, og som dekkjer
-    vesentlege delar av læreplanen i faget." ([Lov om
-    grunnskoleopplæringa og den vidaregåande opplæringa
-    (opplæringslova) - Kapittel 15 Opplæringsspråk, læremiddel og
-    skolebibliotek -
-    Lovdata](https://lovdata.no/dokument/NL/lov/2023-06-09-30/KAPITTEL_4-6#%C2%A715-3))
+    vesentlege delar av læreplanen i faget."[^2] 
 
 -   **Læringsressurser**: "Digitale eller analoge læringsressurser er
     materiell med fagrelevant informasjon som blir integrert i
     læringsarbeidet på en didaktisk måte. Læringsressurser er ikke
     nødvendigvis primært utviklet med tanke på eller for bruk i skolen.
     Typiske eksempler er medieinnhold av typen bilder, tekst, spill,
-    musikk, film og lyd." ([Læremidler og læringsteknologi i skole og
-    opplæring \|
-    udir.no](https://www.udir.no/om-udir/tilskudd-og-prosjektmidler/tilskudd-til-laremidler/begrepsavklaring-skole/))
+    musikk, film og lyd."[^3]
 
 -   **Læringsmodul**: En læringsmodul er en samling av læringsobjekter
     som er organisert etter en faglig eller tematisk avgrensning og med
@@ -60,9 +54,8 @@ Begreper
     å dele opp videre -- selv om det i teorien kan det. Av og til brukes
     'smallest assignable unit', dvs minste enhet som er naturlig å
     spesifisere for bruk i læringsaktiviteter. Et læringsobjekt kan være
-    sammensatt av mindre deler og er ikke det samme som det som i NS4180
-    (<https://standard.no/fagomrader/laringsteknologi/norsk-standard-for-laringsteknologi/>)
-    omtales som læringsatom (NS4180: s 12). På et nettsted kan det være
+    sammensatt av mindre deler og er ikke det samme som det som i NS4180 
+    omtales som læringsatom[^4]. På et nettsted kan det være
     en artikkel, i en lærebok kan det være et delkapittel.
 
 -   **Tjeneste**: I dette dokumentet brukes *tjeneste* om digitale
@@ -97,7 +90,7 @@ Et punkt som ofte er drøftet i det tidligere arbeidet er spørsmålet om
 
 > Granulering handler om å dele opp læremidlene i mindre bestanddeler,
 > slik at hver enkelt del kan kobles mot kompetansemål, kjerneelementer
-> og andre deler av læreplanverket. (Utredningen, side 18)
+> og andre deler av læreplanverket.[^5]
 
 Et analogt læremiddel kan for eksempel være delt opp i
 
@@ -263,37 +256,21 @@ Læringsmodul:
 -   Fagkode / fag og årstrinn / læreplan og årstrinn / kompetansemålsett
     eller flere kompetansemål innen et sett / tverrfaglig emne og
     årstrinn / tema og årstrinn
-
 -   Publikum
-
 -   Tema
-
 -   Tilgjengelighetsspesifikke egenskaper
 
 Læringsobjekt:
 
 -   Kompetansemål/Tverrfaglig emne/Tema
-
 -   Publikum
-
 -   Tema
-
--   Verb
-    ([data.udir.no/kl06/v201906/verb-lk20)](https://data.udir.no/kl06/v201906/verb-lk20)
-
+-   Verb ([data.udir.no/kl06/v201906/verb-lk20)](https://data.udir.no/kl06/v201906/verb-lk20)
 -   Ressurstype
-
 -   Tilgjengelighetsspesifikke egenskaper
 
-> [!TIP] 
-> Har man dype strukturer vil vi anbefale at man bruker *additionalType =
-LearningModule* for å angi læringsmoduler og *additionalType =
-LearningObject* for læringsobjekter. Det vil instruere hvordan objektene
-kan aggregere og arve egenskaper under registrering av objektene.
-Læringsmoduler vil kunne arve info som presiserer fag/tema og trinn, og
-kunne aggregere team/kompetansemål for å vise innhold. Læringsobjekter
-vil kunne arve tema fra mellomstrukturer og fag/tema+trinn fra
-læringsmodul hvis ikke kompetansemål er satt.
+> [!IMPORTANT] 
+> Har man dypere strukturer enn det som tilsvarer modul og objekt, vil vi anbefale at man bruker *additionalType = LearningModule* for å angi læringsmoduler og *additionalType = LearningObject* for læringsobjekter. Det vil instruere hvordan objektene kan aggregere og arve egenskaper under registrering av objektene. Læringsmoduler vil kunne arve info som presiserer fag/tema og trinn, og kunne aggregere team/kompetansemål for å vise innhold. Læringsobjekter vil kunne arve tema fra mellomstrukturer og fag/tema+trinn fra læringsmodul hvis ikke kompetansemål er satt.
 
 Dokumentendringer
 -----------------
@@ -306,3 +283,18 @@ Referanser
 ----------
 
 [^1]: [Informasjonsmodell - openEHR Norway](https://openehr.atlassian.net/wiki/spaces/KLIM/pages/595427360/Informasjonsmodell)
+
+[^2]: [Lov om
+    grunnskoleopplæringa og den vidaregåande opplæringa
+    (opplæringslova) - Kapittel 15 Opplæringsspråk, læremiddel og
+    skolebibliotek -
+    Lovdata](https://lovdata.no/dokument/NL/lov/2023-06-09-30/KAPITTEL_4-6#%C2%A715-3))
+
+[^3]:  [Læremidler og læringsteknologi i skole og
+    opplæring \|
+    udir.no](https://www.udir.no/om-udir/tilskudd-og-prosjektmidler/tilskudd-til-laremidler/begrepsavklaring-skole/)
+
+[^4]: [ NS4180 ](https://standard.no/fagomrader/laringsteknologi/norsk-standard-for-laringsteknologi/)
+
+[^5]: [ Nasjonal tjenestekatalog for digitale læremidler - Utredning ](references/Utredning nasjonal tjenestekatalog for digitale læremidler.pdf)
+
