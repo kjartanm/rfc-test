@@ -1,8 +1,7 @@
 RFC: Overordnet informasjonsmodell for *Nasjonal Tjenestekatalog for Læremidler*
 ================================================================================
 
-|               |                           |
-| ------------- | ------------------------- |
+
 | Forfattere:   | Kjartan Rekdal Müller, Brian Jørgensen, Eivind Andreassen|
 | Oppdatert:    |                           |
 | Frist:        |                           |
@@ -286,7 +285,7 @@ Læringsobjekt:
 
 -   Tilgjengelighetsspesifikke egenskaper
 
-Har man dype strukturer vil vi anbefale at man bruker *additionalType =
+> [!TIP] Har man dype strukturer vil vi anbefale at man bruker *additionalType =
 LearningModule* for å angi læringsmoduler og *additionalType =
 LearningObject* for læringsobjekter. Det vil instruere hvordan objektene
 kan aggregere og arve egenskaper under registrering av objektene.
