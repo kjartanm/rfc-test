@@ -129,14 +129,14 @@ Forslag
 For å delvis løse disse problemstillingene er vårt forslag ikke å
 representere dype strukturer, men kun tillate tre nivåer av objekter:
 
-1.   tjeneste,
-2.   læringsmodul og
-3.   læringsobjekt.
+1.   tjeneste
+2.   læringsmodul
+3.   læringsobjekt
 
 Disse kan representeres hierarkisk på denne måten: En leverandør kan
 tilby en eller flere tjenester. En tjeneste kan brukes til å distribuere
 en eller flere læringsmoduler. En læringsmodul kan inneholde en eller
-flere læringsobjekter:
+flere læringsobjekter.
 
 ![Illustrasjonen viser de tre nivåene, tjeneste, læringsmodul og læringsobjekt, med en-til-mange-relasjoner mellom nivåene.](references/ill.svg)
 
