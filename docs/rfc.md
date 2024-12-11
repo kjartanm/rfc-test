@@ -136,7 +136,11 @@ representere dype strukturer, men kun tillate tre nivåer av objekter:
 Disse kan representeres hierarkisk på denne måten: En leverandør kan
 tilby en eller flere tjenester. En tjeneste kan brukes til å distribuere
 en eller flere læringsmoduler. En læringsmodul kan inneholde en eller
-flere læringsobjekter.
+flere læringsobjekter:
+
+![Illustrasjonen viser de tre nivåene, tjeneste, læringsmodul og læringsobjekt, med en-til-mange-relasjoner mellom nivåene.](references/ill.svg)
+
+*De ulike nivåene og sammenhengene de i mellom.*
 
 > [!IMPORTANT]
 > I utgangspunktet er det tjeneste og læringsmodul vi vil vektlegge for
@@ -144,10 +148,6 @@ flere læringsobjekter.
 > oversiktens skyld og med tanke på mulig fremtidig funksjonalitet.
 
 ### Forklaring på nivåene
-
-![Illustrasjonen viser de tre nivåene, tjeneste, læringsmodul og læringsobjekt, med en-til-mange-relasjoner mellom nivåene.](references/ill.svg)
-
-*De ulike nivåene og sammenhengene de i mellom.*
 
 **Tjeneste**: Tjenestekatalogen skal bli en *Nasjonal tjenestekatalog
 for læremidler*. For å løse dette ser vi det nødvendig å skille mellom
