@@ -129,11 +129,9 @@ Forslag
 For å delvis løse disse problemstillingene er vårt forslag ikke å
 representere dype strukturer, men kun tillate tre nivåer av objekter:
 
--   tjeneste,
-
--   læringsmodul og
-
--   læringsobjekt.
+1.   tjeneste,
+2.   læringsmodul og
+3.   læringsobjekt.
 
 Disse kan representeres hierarkisk på denne måten: En leverandør kan
 tilby en eller flere tjenester. En tjeneste kan brukes til å distribuere
@@ -238,7 +236,6 @@ utarbeide en liste over termer som kan brukes. Dette er de koblingene vi
 ser for oss på de ulike nivåene til å begynne med.
 
 Tjeneste:
-
 -   Hvilke læreplaner eller fag tjenesten dekker
 -   Opplæringsnivå(er) eller årstrinn
 -   Publikum (lærer, elev eller begge -- bruk lærer helst kun hvis
@@ -246,7 +243,6 @@ Tjeneste:
     det hele tatt )
 
 Læringsmodul:
-
 -   Fagkode / fag og årstrinn / læreplan og årstrinn / kompetansemålsett
     eller flere kompetansemål innen et sett / tverrfaglig emne og
     årstrinn / tema og årstrinn
@@ -255,7 +251,6 @@ Læringsmodul:
 -   Tilgjengelighetsspesifikke egenskaper
 
 Læringsobjekt:
-
 -   Kompetansemål/Tverrfaglig emne/Tema
 -   Publikum
 -   Tema
