@@ -103,20 +103,20 @@ Digitale læremidler er ofte strukturert på en tilsvarende, men ikke
 nødvendigvis lik måte. Strukturene vil også kunne være svært
 forskjellige mellom ulike leverandører.
 
-Det første spørsmålet gjelder da hvilke deler av slike strukturer bør
+*Det første spørsmålet* gjelder da hvilke deler av slike strukturer bør
 representeres som egne objekter. Utfordringen er at disse strukturene
 vil variere. Hvordan formidler vi for eksempel i et søk hvor i
 strukturen et treff er slik at det naturlig kan sammenlignes med andre
 treff fra andre leverandører som kan være på andre nivåer?
 
-Det andre spørsmålet dreier seg om sammenhengene mellom nivåene. Det ene
+*Det andre spørsmålet* dreier seg om sammenhengene mellom nivåene. Det ene
 aspektet her er hvordan relasjon mellom objekter uttrykkes. Det andre er
 i hvilken grad skal objekter på et gitt nivå aggregere informasjon fra
 objektene under og arve informasjon fra nivåene over? Uten slike
 mekanismer risikerer man at et treff på et gitt nivå har liten
 informasjonsverdi fordi det mister relevant kontekst.
 
-Det tredje spørsmålet er om det å tillate at et fleksibelt antall nivåer
+*Det tredje spørsmålet* er om det å tillate at et fleksibelt antall nivåer
 representeres i katalogen vil øke risikoen for at katalogen spammes med
 innhold. Dvs. at leverandører kan øke antall treff ved å legge inn
 ekstra nivåer som strengt tatt ikke gir økt informasjonsverdi eller
@@ -143,7 +143,7 @@ flere læringsobjekter:
 *De ulike nivåene og sammenhengene de i mellom.*
 
 > [!IMPORTANT]
-> I utgangspunktet er det tjeneste og læringsmodul vi vil vektlegge for
+> I utgangspunktet er det **tjeneste** og **læringsmodul** vi vil vektlegge for
 > å bygge opp katalogen, men vi beskriver hele modellen her for
 > oversiktens skyld og med tanke på mulig fremtidig funksjonalitet.
 
@@ -203,9 +203,9 @@ filtrere på i tjenestekatalogen.
 
 ### Generell metadata på de ulike nivåene
 
-For læringsmoduler og --objekter vil behovet stort sett dekkes av
+For læringsmoduler og -objekter vil behovet stort sett dekkes av
 NS4180. Der vil vi i utgangspunktet bruke de attributtene som er satt
-som 'recommended' i tillegg til at vi også anbefaler å bruke
+som '*recommended*' i tillegg til at vi også anbefaler å bruke
 *dateModified*.
 
 For *organisasjon* vil vi forvente data både for *legalName*, *url* og
