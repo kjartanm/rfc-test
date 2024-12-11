@@ -95,11 +95,8 @@ Et punkt som ofte er drøftet i det tidligere arbeidet er spørsmålet om
 Et analogt læremiddel kan for eksempel være delt opp i
 
 -   Verk
-
 -   Bok
-
 -   Kapittel
-
 -   Avsnitt / Oppgave
 
 Digitale læremidler er ofte strukturert på en tilsvarende, men ikke
@@ -143,13 +140,14 @@ tilby en eller flere tjenester. En tjeneste kan brukes til å distribuere
 en eller flere læringsmoduler. En læringsmodul kan inneholde en eller
 flere læringsobjekter.
 
+> [!IMPORTANT]
 > I utgangspunktet er det tjeneste og læringsmodul vi vil vektlegge for
 > å bygge opp katalogen, men vi beskriver hele modellen her for
 > oversiktens skyld og med tanke på mulig fremtidig funksjonalitet.
 
 ### Forklaring på nivåene
 
-\[Figur\]
+![Illustrasjonen viser de tre nivåene, tjeneste, læringsmodul og læringsobjekt, med en-til-mange-relasjoner mellom nivåene.](references/ill.svg)
 
 *De ulike nivåene og sammenhengene de i mellom.*
 
@@ -202,8 +200,8 @@ informasjonstap. Der man i den opprinnelige strukturen bruker fag og
 tema som navigasjonspunkt, vil dette i stedet bli egenskaper man kan
 filtrere på i tjenestekatalogen.
 
-> Håndtering av tema blir derfor en viktig del av utviklingen av
-> tjenestekatalogen i tillegg til undervisningsrelaterte egenskaper.
+> [!IMPORTANT]
+> Håndtering av tema blir derfor en viktig del av utviklingen av tjenestekatalogen i tillegg til undervisningsrelaterte egenskaper.
 
 ### Generell metadata på de ulike nivåene
 
@@ -214,13 +212,11 @@ som 'recommended' i tillegg til at vi også anbefaler å bruke
 
 For *organisasjon* vil vi forvente data både for *legalName*, *url* og
 *logo*. Her vil vi i tillegg kreve at også attributtet *iso6523Code*
-brukes ([iso6523Code - Schema.org
-Property](https://schema.org/iso6523Code)) for å kunne identifisere en
+brukes[^6] for å kunne identifisere en
 organisasjon i henhold til ISO 6523. Det vil i praksis si at
 organisasjonsnummeret prefikses med et globalt lokasjonsnummer, f.eks.
 9908:123456789, hvor 9908 betyr at nummeret er utstedt av
-Brønnøysundregistrene (se også [virksomhetsidentifikator
-\|)](https://docs.digdir.no/resources/begrep/sikkerDigitalPost/begrep/virksomhetsidentifikator.html).
+Brønnøysundregistrene.[^7]
 
 For tjenester vil vi forvente at *provider* brukes for å angi
 tjenesteleverandøren for tjenesten.
@@ -244,9 +240,7 @@ ser for oss på de ulike nivåene til å begynne med.
 Tjeneste:
 
 -   Hvilke læreplaner eller fag tjenesten dekker
-
 -   Opplæringsnivå(er) eller årstrinn
-
 -   Publikum (lærer, elev eller begge -- bruk lærer helst kun hvis
     pålogging med lærerrolle gir egen visning eller kreves for tilgang i
     det hele tatt )
@@ -265,7 +259,7 @@ Læringsobjekt:
 -   Kompetansemål/Tverrfaglig emne/Tema
 -   Publikum
 -   Tema
--   Verb ([data.udir.no/kl06/v201906/verb-lk20)](https://data.udir.no/kl06/v201906/verb-lk20)
+-   Verb[^8]
 -   Ressurstype
 -   Tilgjengelighetsspesifikke egenskaper
 
@@ -296,5 +290,11 @@ Referanser
 
 [^4]: [ NS4180 ](https://standard.no/fagomrader/laringsteknologi/norsk-standard-for-laringsteknologi/)
 
-[^5]: [ Nasjonal tjenestekatalog for digitale læremidler - Utredning ](references/Utredning nasjonal tjenestekatalog for digitale læremidler.pdf)
+[^5]: [ Nasjonal tjenestekatalog for digitale læremidler - Utredning ](references/utredning.pdf)
 
+[^6]: [iso6523Code - Schema.org
+Property](https://schema.org/iso6523Code)
+
+[^7]: [ DigDir: Virksomhetsidentifikator ](https://docs.digdir.no/resources/begrep/sikkerDigitalPost/begrep/virksomhetsidentifikator.html)
+
+[^8]:  [ Liste over verb i Grep ](https://data.udir.no/kl06/v201906/verb-lk20)
