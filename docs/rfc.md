@@ -182,9 +182,9 @@ informasjonen som er knyttet til disse mellomnivåene, kan i stedet
 knyttes til de nivåene som vi betegner som læringsmodul og
 læringsobjekt.
 
-La oss for eksempel anta en tjeneste som har inndelinger i '<u>[fag -\>
-trinn -\> tema -\> artikkel]</u>'. Hvis strukturen da er
-'<u>[Matematikk -\> 5. trinn -\> Brøk -\> Brøk og tallinje]</u>',
+La oss for eksempel anta en tjeneste som har inndelinger i `[fag ->
+trinn -> tema -> artikkel]`. Hvis strukturen da er
+`[Matematikk -> 5. trinn -> Brøk -> Brøk og tallinje]`,
 så kan trinn-nivået 'arve' fag og utgjøre en læringsmodul, og
 artikkel-nivået utgjøre et objekt ved å 'arve' brøk som tema. Hvis
 artikkelen er knyttet til kompetansemål, så kan fagtilknytning og trinn
@@ -193,7 +193,7 @@ Tilsvarende kan læringsmodulnivå aggregere tema og kompetansemål hvis
 det ikke settes eksplisitt.
 
 I katalogen vil denne strukturen da forenklet kunne representeres som
-'<u>[Matematikk for 5. trinn -\> Brøk og tallinje]</u>' uten
+`[Matematikk for 5. trinn -> Brøk og tallinje]` uten
 informasjonstap. Der man i den opprinnelige strukturen bruker fag og
 tema som navigasjonspunkt, vil dette i stedet bli egenskaper man kan
 filtrere på i tjenestekatalogen.
