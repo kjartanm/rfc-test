@@ -2,7 +2,7 @@ RFC: Overordnet informasjonsmodell for *Nasjonal Tjenestekatalog for Læremidler
 ================================================================================
 |Status         |                           |
 |---------------|---------------------------|
-| Forfattere:   | Kjartan Rekdal Müller, Brian Jørgensen, Eivind Andreassen|
+| Forfattere:   | Kjartan Rekdal Müller, Brian Karmisholt Jørgensen, Eivind Lie Andreassen |
 | Oppdatert:    |                           |
 | Frist:        |                           |
 | Status:       | Utkast                    |
@@ -259,7 +259,14 @@ Læringsobjekt:
 -   Tilgjengelighetsspesifikke egenskaper
 
 > [!IMPORTANT] 
-> Har man dypere strukturer enn det som tilsvarer modul og objekt, vil vi anbefale at man bruker *additionalType = LearningModule* for å angi læringsmoduler og *additionalType = LearningObject* for læringsobjekter. Det vil instruere hvordan objektene kan aggregere og arve egenskaper under registrering av objektene. Læringsmoduler vil kunne arve info som presiserer fag/tema og trinn, og kunne aggregere team/kompetansemål for å vise innhold. Læringsobjekter vil kunne arve tema fra mellomstrukturer og fag/tema+trinn fra læringsmodul hvis ikke kompetansemål er satt.
+> Har man dypere strukturer enn det som tilsvarer modul og objekt, vil vi 
+> anbefale at man bruker *additionalType*[^9] for å angi læringsmoduler og 
+> læringsobjekter. Det vil instruere hvordan objektene kan aggregere og arve 
+> egenskaper under registrering av objektene. Læringsmoduler vil kunne arve 
+> info som presiserer fag/tema og trinn, og kunne aggregere team/kompetansemål 
+> for å vise innhold. Læringsobjekter vil kunne arve tema fra mellomstrukturer 
+> og fag/tema+trinn fra læringsmodul hvis ikke kompetansemål er satt. 
+> Vi vil definere nærmere vokabular senere.
 
 Dokumentendringer
 -----------------
@@ -292,4 +299,7 @@ Property](https://schema.org/iso6523Code)
 
 [^7]: [ DigDir: Virksomhetsidentifikator ](https://docs.digdir.no/resources/begrep/sikkerDigitalPost/begrep/virksomhetsidentifikator.html)
 
-[^8]:  [ Liste over verb i Grep ](https://data.udir.no/kl06/v201906/verb-lk20)
+[^8]: [ Liste over verb i Grep ](https://data.udir.no/kl06/v201906/verb-lk20)
+
+[^9]: [additionalType - Schema.org
+Property](https://schema.org/additionalType)
