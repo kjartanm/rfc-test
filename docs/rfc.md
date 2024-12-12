@@ -51,7 +51,7 @@ Begreper
 
 -   **Læringsobjekt**: Et læringsobjekt er en mindre, avgrenset del av
     en læringsmodul som i de fleste sammenhenger ikke vil være naturlig
-    å dele opp videre -- selv om det i teorien kan det. Av og til brukes
+    å dele opp videre - selv om det i teorien kan det. Av og til brukes
     'smallest assignable unit', dvs minste enhet som er naturlig å
     spesifisere for bruk i læringsaktiviteter. Et læringsobjekt kan være
     sammensatt av mindre deler og er ikke det samme som det som i NS4180 
@@ -224,7 +224,7 @@ den samme som utgiveren (publisher) av læremidlene som distribueres via
 tjenesten, men i noen sammenhenger vil de være forskjellige. Dette
 gjelder blant andre noen av de tjenestene som distribuerer digitale
 lærebokutgaver fra flere forlag. Derfor vil vi anbefale at *provider*
-også brukes på læringsmoduler og --objekter. For å angi relasjon til
+også brukes på læringsmoduler og -objekter. For å angi relasjon til
 tjeneste kan man bruke *isPartOf* med url til tjenesten.
 
 ### Læringsmetadata på de ulike nivåene
@@ -238,7 +238,7 @@ ser for oss på de ulike nivåene til å begynne med.
 Tjeneste:
 -   Hvilke læreplaner eller fag tjenesten dekker
 -   Opplæringsnivå(er) eller årstrinn
--   Publikum (lærer, elev eller begge -- bruk lærer helst kun hvis
+-   Publikum (lærer, elev eller begge - bruk lærer helst kun hvis
     pålogging med lærerrolle gir egen visning eller kreves for tilgang i
     det hele tatt )
 
