@@ -209,8 +209,8 @@ som '*recommended*' i tillegg til at vi også anbefaler å bruke
 *dateModified*.
 
 For *organisasjon* vil vi forvente data både for *legalName*, *url* og
-*logo*. Her vil vi i tillegg kreve at også attributtet *iso6523Code*
-brukes[^6] for å kunne identifisere en
+*logo*. Her vil vi i tillegg kreve at også attributtet *iso6523Code*[^6]
+brukes for å kunne identifisere en
 organisasjon i henhold til ISO 6523. Det vil i praksis si at
 organisasjonsnummeret prefikses med et globalt lokasjonsnummer, f.eks.
 9908:123456789, hvor 9908 betyr at nummeret er utstedt av
