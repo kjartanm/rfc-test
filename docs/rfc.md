@@ -1,16 +1,16 @@
-RFC: Overordnet informasjonsmodell for *Nasjonal Tjenestekatalog for Læremidler*
+RFC: Overordnet informasjonsmodell for *Læremiddelkatalogen (nasjonal tjenestekatalog for læremidler)*
 ================================================================================
 |Status         |                           |
 |---------------|---------------------------|
 | Forfattere:   | Kjartan Rekdal Müller, Brian Karmisholt Jørgensen, Eivind Lie Andreassen |
-| Oppdatert:    |                           |
-| Frist:        |                           |
-| Status:       | Utkast                    |
+| Oppdatert:    | 2025-01-08                |
+| Frist:        | 2025-01-31                |
+| Status:       | Til høring                |
 
 Bakgrunn
 --------
 
-En nasjonal tjenestekatalog for læremidler er under utvikling. En del av
+*Læremiddelkatalogen*, som skal bli en nasjonal tjenestekatalog for læremidler er under utvikling. En del av
 arbeidet er å angi hva slags type objekter katalogen skal framvise. I
 den forbindelse har vi utviklet en informasjonsmodell som vil tjene som
 utgangspunkt for videre arbeid med databaser,
@@ -69,13 +69,13 @@ Problemstillinger
 Dette notatet adresserer spesielt tre problemstillinger:
 
 1)  Hvilke typer objekter er det naturlig å presentere i en
-    tjenestekatalog på kortere og lengre sikt?
+    tjeneste-/læremiddelkatalog på kortere og lengre sikt?
 
 2)  Hvordan henger de sammen?
 
 3)  Risikoen for spamming av katalogen
 
-Arbeidet med tjenestekatalogen bygger på en rekke tidligere arbeid og
+Arbeidet med *Læremiddelkatalogen* bygger på en rekke tidligere arbeid og
 aktiviteter, for eksempel:
 
 -   Utredningen om "Nasjonal tjenestekatalog for digitale læremidler"
@@ -149,7 +149,7 @@ flere læringsobjekter.
 
 ### Forklaring på nivåene
 
-**Tjeneste**: Tjenestekatalogen skal bli en *Nasjonal tjenestekatalog
+**Tjeneste**: *Læremiddelkatalogen* skal bli en *nasjonal tjenestekatalog
 for læremidler*. For å løse dette ser vi det nødvendig å skille mellom
 tjeneste og læremiddel. En tjeneste er ikke i seg selv et læremiddel,
 men det system som brukes for å distribuere læremidler/-middelet. Dette
@@ -196,10 +196,10 @@ I katalogen vil denne strukturen da forenklet kunne representeres som
 `[Matematikk for 5. trinn -> Brøk og tallinje]` uten
 informasjonstap. Der man i den opprinnelige strukturen bruker fag og
 tema som navigasjonspunkt, vil dette i stedet bli egenskaper man kan
-filtrere på i tjenestekatalogen.
+filtrere på i *Læremiddelkatalogen*.
 
 > [!IMPORTANT]
-> Håndtering av tema blir derfor en viktig del av utviklingen av tjenestekatalogen i tillegg til undervisningsrelaterte egenskaper.
+> Håndtering av tema blir derfor en viktig del av utviklingen av *Læremiddelkatalogen* i tillegg til undervisningsrelaterte egenskaper.
 
 ### Generell metadata på de ulike nivåene
 
@@ -274,6 +274,7 @@ Dokumentendringer
 | Dato:       | Endring:        |
 | ------------| --------------- |
 | 2024-12-12  | Første utkast   |
+| 2025-01-08  | Første versjon  |
 
 Referanser
 ----------
